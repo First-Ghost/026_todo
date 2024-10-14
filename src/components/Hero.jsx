@@ -32,8 +32,11 @@ export const Hero = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="bg-[#1E3E62] rounded-3xl p-[100px]">
+    <div className="md:max-w-[1440px] max-w-[375px] min-h-screen flex items-center justify-center mx-auto">
+      <div
+        className="bg-[#1E3E62] rounded-3xl p-10
+      "
+      >
         <h1 className="text-3xl font-bold text-center text-blue-200 uppercase mb-6">
           todo list 📝
         </h1>
