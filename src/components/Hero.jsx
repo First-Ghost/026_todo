@@ -34,7 +34,7 @@ export const Hero = () => {
   return (
     <div className="md:max-w-[1440px] max-w-[375px] min-h-screen flex items-center justify-center mx-auto">
       <div
-        className="bg-[#1E3E62] rounded-3xl p-10
+        className="bg-[#1E3E62] rounded-3xl md:p-[100px] p-10
       "
       >
         <h1 className="text-3xl font-bold text-center text-blue-200 uppercase mb-6">
@@ -76,7 +76,7 @@ export const Hero = () => {
                     className="mr-2 w-5 h-5 text-blue-600"
                   />
                   <span
-                    className={`flex-grow ${
+                    className={`flex-grow break-words ${
                       todo.completed
                         ? "line-through text-gray-500"
                         : "text-gray-800"
